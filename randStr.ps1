@@ -10,8 +10,6 @@ param
     [int]$length
 )
 
-Write-Host $length
-
 [string]$passChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcedfghijklmnopqrstuvwxyz0123456789-*/+.-_:,;<>\\¦@#ç%&¬/|(¢)=?^~"
 [string]$output = ""
 
